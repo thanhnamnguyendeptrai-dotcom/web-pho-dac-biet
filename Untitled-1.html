@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinh Hoa Phở Việt - Phở Đặc Biệt</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* Lớp nền màu vàng dưới cùng */
+            background-color: #FFF59D;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            /* Cách viền màn hình xung quanh 10px để lộ lớp nền vàng */
+            padding: 10px; 
+        }
+
+        /* Lớp nền trắng nằm đè lên lớp vàng */
+        .lop-trang {
+            background-color: #FFFFFF;
+            /* Bo tròn 4 góc của khung trắng */
+            border-radius: 20px; 
+            /* Kéo dài khung trắng theo nội dung và đảm bảo ít nhất cao bằng màn hình */
+            min-height: calc(100vh - 20px); 
+            max-width: 900px;
+            margin: 0 auto; /* Căn giữa trên màn hình máy tính lớn */
+            padding: 40px 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: #B71C1C;
+            font-size: 2.4em;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            color: #666;
+            font-size: 1.1em;
+            font-style: italic;
+        }
+
+        /* Khu vực chứa hình ảnh tô phở */
+        .khung-anh {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .khung-anh img {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            /* Bo tròn góc ảnh */
+            border-radius: 15px; 
+            display: block;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        /* Phần nội dung bài viết */
+        .noi-dung h2 {
+            color: #D84315;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 1.5em;
+            border-left: 5px solid #FBC02D;
+            padding-left: 12px;
+        }
+
+        .noi-dung p {
+            line-height: 1.7;
+            font-size: 1.05em;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .thanh-phan {
+            background-color: #FFFDE7;
+            padding: 20px 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border: 1px solid #FFF59D;
+        }
+
+        .thanh-phan ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #EEE;
+            color: #777;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Lớp màu trắng nằm trên nền vàng -->
+    <div class="lop-trang">
+        
+        <header>
+            <h1>Phở Bò Đặc Biệt Truyền Thống</h1>
+            <p>"Tinh hoa ẩm thực Việt trong từng làn khói nghi ngút"</p>
+        </header>
+
+        <!-- Đặt ảnh tô phở của bạn vào đây -->
+        <div class="khung-anh">
+            <!-- LƯU Ý: Thay tên file dưới đây bằng đúng tên file ảnh phở trên máy của bạn -->
+            <img src="phodacbiet.png" alt="Tô Phở Bò Đặc Biệt Nóng Hổi">
+        </div>
+
+        <div class="noi-dung">
+            <h2>1. Hương vị đánh thức mọi giác quan</h2>
+            <p>
+                Phở từ lâu đã trở thành biểu tượng văn hóa ẩm thực của người Việt Nam. Một tô phở đặc biệt chuẩn vị không chỉ nằm ở sợi bánh phở trắng mềm, dai nhẹ mà còn ở thứ nước dùng trong veo, ngọt thanh được ninh từ xương ống bò suốt nhiều giờ liền cùng các loại thảo mộc tự nhiên.
+            </p>
+
+            <h2>2. Thành phần làm nên tô Phở Đặc Biệt</h2>
+            <div class="thanh-phan">
+                <ul>
+                    <li><strong>Thịt bò đa dạng:</strong> Kết hợp hài hòa giữa thịt tái mềm ngọt, nạm bò béo ngậy, gầu giòn sần sật và gân bò hầm nhừ.</li>
+                    <li><strong>Hương thơm thảo mộc:</strong> Quyện hòa mùi thơm đặc trưng của hoa hồi, quế chi, thảo quả và hành tây nướng sơ.</li>
+                    <li><strong>Rau gia vị ăn kèm:</strong> Hành lá chẻ, ngò gai tươi xanh cùng lát chanh tươi và vài lát ớt đỏ kích thích vị giác.</li>
+                </ul>
+            </div>
+
+            <h2>3. Cách thưởng thức trọn vẹn nhất</h2>
+            <p>
+                Phở ngon nhất là khi vừa bưng ra còn bốc khói nghi ngút. Trước khi thêm gia vị, hãy thử nếm một thìa nước dùng nguyên bản để cảm nhận vị ngọt tự nhiên từ xương, sau đó vắt nhẹ một miếng chanh tươi, thêm chút tương ớt và thưởng thức ngay khi còn nóng.
+            </p>
+        </div>
+
+        <footer>
+            <p>Trang web giới thiệu Ẩm Thực Việt Nam &copy; 2026</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
